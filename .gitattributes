@@ -1,8 +1,0 @@
-# Exclude output files from language statistics
-outputs/*.html linguist-generated=true
-
-# Mark HTML templates as generated (if HTML is embedded in Python)
-*.html linguist-generated=true
-
-# Ensure Python is detected as the main language
-*.py linguist-language=Python
